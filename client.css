@@ -3,6 +3,9 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+html{
+	scroll-behavior: smooth;
+}
 body {
     font-family: "Work Sans", sans-serif;
     }
@@ -492,11 +495,23 @@ transition: all .4s ease;
   position: fixed;
   bottom: 25px;
   right: 5%;
+  background-color: #28a1d3;
+  border: none;
+  border-radius: 10px;
   display: none;
+}
+.scroll-top:hover{
+	background-color: #afb2b3;
 }
 .scroll-top i {
   display: inline-block;
   color: #fff;
+}
+@media only screen
+and (min-width : 1199px){
+	.scroll-top{
+		right: 25px;
+	}
 }
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen
