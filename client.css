@@ -741,56 +741,7 @@ and (max-width: 991px){
     margin-left: 6px;
     padding-left: 0;
 }
-	.navbar .dropdown-menu{
-	border: none;
-	background-color: #0a1217!important;
-	width: 100%;
-	left: 0;
-	right: 0;
-	/*display: block;*/
-	visibility: visible;
-}
-		.navbar{
-	padding-top: 0px;
-	padding-bottom: 0px;
-	background-color: #0a1217;
-	}
-	.navbar .nav-item{
-		padding: 3px;
-	}
-	.nav-item a{
-		font-weight: 600;
-	}
-	ul .nav .nav-submenu::before{
-		content: '\f101'; 
-		font-family: 'FontAwesome'; 
-		position: absolute; 
-		left: 0;
-	    color: grey; 
-	}
-	.nav-submenu{
-		color: white;
-		font-weight: 400;
-		padding-bottom: 10px;
-		color: grey;
-	}
-	.navbar .dropdown{
-		position: static;
-	}
-	.navbar .dropdown-menu{
-		border: none;
-		background-color: #0a1217!important;
-		width: 100%;
-		left: 0;
-		right: 0;
-		display: block;
-		visibility: hidden;
-	}
-	.navbar .dropdown:hover .dropdown-menu, .navbar .dropdown .dropdown-menu:hover {
-	  display:block;
-	  visibility: visible;
-	  transition: visibility 10s, opacity 0.3s linear;
-	}
+	
 
 	.aboutus-banner {
     padding: 20px;
